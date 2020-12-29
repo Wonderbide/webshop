@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="frontoffice:war">
+    <output-path>$PROJECT_DIR$/frontoffice/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>frontoffice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="frontoffice-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="frontoffice:war exploded" />
+    </root>
+  </artifact>
+</component>
